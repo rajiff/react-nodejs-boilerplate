@@ -1,0 +1,13 @@
+{
+  "globals": {
+    "document": true
+  },
+  "plugins": [],
+  "env": {
+    "es6": true,
+    "mocha": true,
+    "node": true
+  },
+  "rules": {},
+  "extends": ["eslint:recommended"]
+}

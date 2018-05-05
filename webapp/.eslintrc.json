@@ -1,0 +1,17 @@
+{
+  "globals": {
+    "document": true
+  },
+  "plugins": [
+    "react"
+  ],
+  "env": {
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {},
+  "extends": ["eslint:recommended", "plugin:react/recommended"]
+}
