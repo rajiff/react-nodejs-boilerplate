@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 
 import {Link} from 'react-router-dom';
 import { ListItem, ListItemIcon, ListItemText } from 'material-ui/List';
-import DashboardIcon from 'material-ui-icons/Dashboard';
-import NoteAddIcon from 'material-ui-icons/NoteAdd';
-import DescriptionIcon from 'material-ui-icons/Description';
-import ListIcon from 'material-ui-icons/List';
+import DashboardIcon from '@material-ui/icons/Dashboard';
+import NoteAddIcon from '@material-ui/icons/NoteAdd';
+import DescriptionIcon from '@material-ui/icons/Description';
+import ListIcon from '@material-ui/icons/List';
 
 export default class DrawerItems extends React.Component {
 	constructor(props) {

@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  mernwebserver:
+    image: mernapp:1.0.0
+    build: ./
+    restart: always
+    environment:
+      PORT: 3000
+    ports:
+      - 3000:3000
