@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf ./build",
-    "build": "./node_modules/.bin/webpack",
+    "build": "./node_modules/.bin/webpack --config webpack.dev.js",
     "build-prod": "webpack --config webpack.prod.js",
     "serve": "./node_modules/.bin/webpack-dev-server --config webpack.dev.js",
     "lint": "./node_modules/.bin/eslint './src/**/*.js' --ignore-path .eslintignore"
