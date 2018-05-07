@@ -8,7 +8,7 @@ export default class WelcomeView extends React.Component {
 	render() {
 		return (
 			<div>
-				<h2>Welcome View</h2>
+				<h2>{"Welcome View"}</h2>
 			</div>
 		)
 	}
